@@ -1,0 +1,605 @@
+@media screen and (max-width:667px)
+{
+
+    body, .navigation
+    {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Réautoriser les sections à s'étendre sur toute la largeur */
+    header, #hebergements, #activites
+    {
+        width:100%;
+    }
+
+
+    /* ------ */
+    /* HEADER */
+    /* ------ */
+
+    header
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+
+
+    /* Affichage logo/navigation sur deux lignes. Les liens hébergements et activités sont sur la seconde ligne */
+    #header_principale
+    {
+        width: 100%;
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0;
+    }
+    
+
+    nav
+    {
+        display:flex;
+        order:3;
+        width:100%;
+        font-size:0.95em;
+    }
+    
+
+    #hebergements_link, #activites_link
+    {
+        width:50%;
+        text-align: center;
+        font-size:1.05em;
+        padding-top: 30px;
+    }
+
+
+    /* Marge a gauche du logo */
+    #logo_container
+    {
+        flex:1;
+        margin-left: 20px;
+    }
+
+    /* Lien d'inscription un peu plus petit */
+    #signup_link
+    {
+        font-size: 0.95em;
+        padding-right: 20px;
+    }
+
+
+    /* Bordure en dessous des liens au lieu d'en dessus */
+
+    #hebergements_link:hover, #activites_link:hover
+    {
+        color: #0065FC;
+        border-top:0px;
+        border-bottom:3px #0065FC solid;
+        color: #0065FC;
+    }
+
+/*-------- Section 1 Titre - Recherche - Filtres --------*/    
+
+    .recherche_info_filtres
+    {
+        width: 100%;
+        padding: 0 20px 0 20px;
+    }
+
+
+    .titre_principal 
+    {
+        font-size: 1.4em;
+    }
+
+
+    /*barre de recherche*/
+    .recherche_info_filtres 
+    {
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    .les_titres_du_site .info_plus_titre 
+    {
+        margin-top: 10px;
+    }
+
+
+    .les_titres_du_site p 
+    {
+        font-size: 1.1em;
+    }
+
+
+    .titre_principal 
+    {
+        font-size: 1.4em;
+    }
+
+
+    .rechercher 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .form 
+    {
+        display: flex;
+        width: 100%;
+        border: 3px solid black;
+    }
+
+
+    #chercher 
+    {
+        width: 100%;
+        padding: 11px 11px 11px 20px;
+        margin-right: -20px;
+        margin-left: 0px;
+        border: #F2F2F2 solid 1px;
+        border-left: 0px;
+        border-right: 0px;
+    }
+
+
+    .desktop 
+    {
+        display: none;
+    }
+
+
+    .tel_mob 
+    {
+        height: 49px;
+        width: 49px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0065FC;
+        color: #fff;
+        border-radius: 8px;
+        border-color: transparent;
+    }
+
+
+    .tel_mob i 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border: none;
+        height: 100%;
+    }
+
+
+    .tel_mob i:hover 
+    {
+        background-color: transparent;
+    }
+
+
+    form input 
+    {
+        border: solid 1px #F2F2F2;
+    }    
+
+    /* ------- LES FILTRES ------- */
+
+    .filtres 
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0 10px 0;
+    }
+
+
+    .filtre 
+    {
+        margin-right: 10px;
+    }
+
+
+    .titre_bar_filtres 
+    {
+        margin-bottom: 20px;
+    }
+
+
+    /* Titre filtre au dessus des filtres */
+    #filters
+    {
+        flex-direction: column;
+        align-items:flex-start;
+    }
+
+
+    /* Mise en forme des boutons filtres */
+    #filters h2
+    {
+        font-size:1.3em;
+        margin-bottom: 12px;
+        margin-left: 0px;
+        margin-right: 30px;
+    }
+
+
+    #filter_buttons form
+    {
+        margin-right:0px;
+ 
+    }
+
+
+    #filter_buttons button
+    {
+        height:47px;
+        border:#d3d1d1 solid 2px;
+        margin-right: 10px;
+    }    
+
+
+    .button_icon
+    {
+        font-size: 1em;
+        height:50px;
+        width:50px;
+    }
+
+
+    .button_text
+    {
+        font-size:1em;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    /* Boutons sur plusieurs lignes */
+    #filter_buttons
+    {
+        flex-wrap: wrap;
+        
+    }
+
+
+    #filter_buttons form
+    {
+        margin-bottom:10px;
+    }
+
+
+    form 
+    {
+        padding: 5px 0 5px 0;
+    }
+
+
+    /* Augmenter  la taille de de la phrase d'info */
+    #circle_info
+    {
+        height:23px;
+        width:23px;
+        align-self:flex-start;
+        margin-left: 0px;
+        margin-right: 5px;
+        margin-top: -2px;
+    }
+
+
+    #circle_info i
+    {
+        font-size:0.70em;
+        margin-left: 0px;
+        margin-right: 5px;
+        margin-top: 2px;
+    }
+
+
+    #info_text
+    {
+        font-size:0.95em;
+        width: 90%;
+        margin-top: 0px;
+    }
+
+
+    .info 
+    {
+        display: flex;
+        margin: 15px 0 20px 15px;
+    }    
+    
+
+    /* ------- Hebergements à Marseilles ------- */
+
+
+    .tout_a_marse
+    {
+        order: 2;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between ;
+        row-gap: 20px;
+    }
+
+
+    .heberg_marse 
+    {
+        order: 2;        
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        background-color: #f2f2f2;
+        border-radius: 0px;
+        padding: 0 20px 0 20px;
+    }
+
+
+    .heb_a_marseilles 
+    {
+        width: 100%;
+        background-color: transparent;
+        border: 5px solid;
+        border-color: #FEFEFE;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        box-shadow: 2px 2px 5px #d1cfcf;
+    }
+
+
+    .bloc_heb_a_marse
+    {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .tit_heb_mar 
+    {
+        width: 100%;
+        margin: 0;
+        padding: 30px 0 20px 5px;
+        font-size: 1.3em;
+    }
+
+
+
+    /* ------- Les Plus Populaires ------- */
+
+    .populaire 
+    {
+        order: 1;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        background-color: #f2f2f2;
+        border-radius: 0px;
+        padding: 0 20px 0 20px;
+        margin: 0;
+    }
+
+
+    .les_populaires 
+    {
+        order: 1;        
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        border-radius: 25px;
+        padding: 0;
+        margin: 0;    
+    }
+
+
+    .pop img 
+    {
+        width: 40%;
+        height: 100%;
+        border: 1px solid white;
+        border-radius: 25px 0 0 25px;
+        object-fit: cover;
+        flex-shrink: 1;
+    }
+
+
+    .pop
+    {
+        height: 140px;
+    }
+
+
+
+    .haut 
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        padding:0 0 20px 0;
+        justify-content: space-between;
+    }
+
+
+    .titre2
+    {
+        width: 100%;
+        margin: 0;
+        padding: 30px 0 20px 5px;
+        font-size: 1.3em;
+    }
+
+
+    .textpopu p
+    {
+        font-size: 0.9em;
+    }
+
+    .aff 
+    {
+        padding: 25px 0 20px 5px;
+        font-weight: bold;
+        font-size: 19px;
+    }
+   
+   
+    /* ------- Section : Activités à Marseilles ------- */
+    #activites
+    {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    #activites .article_activite
+    {
+        background-color:#FFFFFF;
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    #activites h2
+    {
+        width:88%;
+        margin-bottom: 20px;
+        font-size: 1.3em;
+    }
+
+
+    #activites h3 
+    {
+        padding-left: 13px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 17px;
+    }
+
+
+    #activites .article_activite a
+    {
+        width:100%;
+        border-radius: 18px;
+        margin-bottom: 15px;
+    }
+
+
+    #activites .article_activite img
+    {
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        border-top-left-radius: 14px;
+        border-top-right-radius: 14px;
+    }
+
+    #activites .article_activite
+    {
+        height: 1356px;
+    }
+    
+    #activites .article_activite a:nth-child(1) img, #activites .article_activite a:nth-child(2) img, 
+    #activites .article_activite a:nth-child(3) img, #activites .article_activite a:nth-child(4) img,
+    #activites .article_activite a:nth-child(5) img, #activites .article_activite a:nth-child(6) img
+    {
+        height: 150px;
+    }
+
+
+    /* ----------------------footer---------------------- */
+
+    footer
+    {
+        max-width: 667px;
+        min-width: 375px;
+        margin: 0 auto;
+    }
+
+
+    #notre_footer
+    {
+        width: 100%;
+        padding: 30px 20px 50px 25px;
+        margin: 0;
+        Min-height: 430px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start ;
+        font-size: 0.7em;
+    }    
+
+
+    #nos_hebergements, #a_propos, #assistance
+    {
+        width: 100%;
+    }
+
+
+    #nos_hebergements, #assistance
+    {
+        margin-top: 30px;
+    }
+
+
+    footer h1
+    {
+        width: 100%;
+        font-size: 1.6em;
+        margin-bottom: 10px;
+    }
+
+
+    footer a
+    {
+        width: 100%;
+        font-size: 1.3em;
+    }
+
+
+    footer ul
+    {
+        width: 100%;
+        list-style-type:none;
+        font-size: 1.1em;
+        padding-left: 0px;
+    }
+
+
+    footer li
+    {
+        width: 100%;
+        padding-bottom: 7px;
+    }
+
+
+
+    footer a:hover 
+    {
+    color: #0065FC;
+    }
+    
+
+}    
